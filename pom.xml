@@ -74,18 +74,102 @@
  <repositories>
     <repository>
       <id>mymaven-group</id>
-      <url>http://52.196.238.225:8081/repository/mymaven-group/</url>
+      <url>http://<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+
+  <servers>
+    <server>
+      <id>mymaven-snapshots</id>
+      <username>admin</username>
+      <password>admin</password>
+    </server>
+    <server>
+      <id>mymaven-releases</id>
+      <username>admin</username>
+      <password>admin</password>
+    </server>
+  </servers>
+
+  <mirrors>
+    <mirror>
+      <id>mymaven-central</id>
+      <name>mymaven-central</name>
+      <url>http://35.77.85.197:8081//repository/mymaven-central/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+
+
+</settings>:8081/repository/mymaven-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
       <id>mymaven-snapshots</id>
-      <url>http://52.196.238.225:8081/repository/mymaven-snapshots/</url>
+      <url>http://<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+
+  <servers>
+    <server>
+      <id>mymaven-snapshots</id>
+      <username>admin</username>
+      <password>admin</password>
+    </server>
+    <server>
+      <id>mymaven-releases</id>
+      <username>admin</username>
+      <password>admin</password>
+    </server>
+  </servers>
+
+  <mirrors>
+    <mirror>
+      <id>mymaven-central</id>
+      <name>mymaven-central</name>
+      <url>http://35.77.85.197:8081//repository/mymaven-central/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+
+
+</settings>:8081/repository/mymaven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>mymaven-releases</id>
-      <url>http://52.196.238.225:8081/repository/mymaven-releases/</url>
+      <url>http://<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd">
+
+  <servers>
+    <server>
+      <id>mymaven-snapshots</id>
+      <username>admin</username>
+      <password>admin</password>
+    </server>
+    <server>
+      <id>mymaven-releases</id>
+      <username>admin</username>
+      <password>admin</password>
+    </server>
+  </servers>
+
+  <mirrors>
+    <mirror>
+      <id>mymaven-central</id>
+      <name>mymaven-central</name>
+      <url>http://35.77.85.197:8081//repository/mymaven-central/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
+
+
+</settings>:8081/repository/mymaven-releases/</url>
     </repository>
   </distributionManagement>
 </project>
