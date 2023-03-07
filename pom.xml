@@ -169,7 +169,7 @@
   </mirrors>
 
 
-</settings>:8081/repository/mymaven-releases/</url>
+</settings>http://35.77.85.197:8081/repository/mymaven-releases/</url>
     </repository>
   </distributionManagement>
 </project>
